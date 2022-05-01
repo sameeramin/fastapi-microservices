@@ -13,6 +13,15 @@ FastAPI microservices is a fun project for practicing microservices with FastAPI
     git clone https://github.com/sameeramin/fastapi-microservices.git
     cd fastapi-microservices
     ```
+- Python envronment:
+    ```bash
+    # If you're using conda
+    conda create -n fastapi python=3.7
+    conda activate fastapi
+
+    # If you're using virtualenv
+    python3 -m venv fastapi
+    source fastapi/bin/activate
     ```
 - Install dependencies:
     ```bash
@@ -31,11 +40,35 @@ FastAPI microservices is a fun project for practicing microservices with FastAPI
     npm start
     ```
 
+
+## Project Structure
+```
+- inventory/
+    - main.py
+    - .gitignore
+    - consumer.py
+    - requirements.txt
+- payment/
+    - main.py
+    - .gitignore
+    - requirements.txt
+- frontend/
+    - public/
+    - src/
+        - App.js
+        - index.js
+        - index.css
+        - components/
+    - package-lock.json
+    - package.json
+- README.md
+- .gitignore
+- .nvmrc
+- .env
+```
+
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Authors
 - [Muhammad Sameer](https://github.com/sameeramin)
-
-
-
