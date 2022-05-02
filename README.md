@@ -1,4 +1,4 @@
-# fastapi-microservices
+# FastAPI Microservices
 FastAPI microservices is a fun project for practicing microservices with FastAPI. It's architecture is based two backends: i.e. one for inventory and one for orders. The inventory backend is a simple REST API that provides a CRUD interface for managing products. The orders backend is a simple REST API that provides a CRUD interface for managing orders. The frontend is a React app that uses the FastAPI microservices to manage the inventory and orders.
 
 ## Technologies
